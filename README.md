@@ -38,7 +38,7 @@ Since XGBoost algorithm is a blackbox, we employed SHAP values. For our model, n
 
 <sub>Models with Training and CV AUC</sub>
 
-![](Relevant%20Information/TrainingCVAUC.png)
+![](Relevant%20Information/TrainCVAUCFinal.png)
 
 
 <sub>XGBoost with Hyperparameter on testing data: AUROC & confusion matrix</sub>
