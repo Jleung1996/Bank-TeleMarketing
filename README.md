@@ -60,7 +60,7 @@ We were able to see that both national number of employee and the three month Eu
 For example, with a high three month Euribor rate(short-term interest), it reduces the chance a call is successful in the XGBoost model. This bears some similarity with economic behaviors since attractive short term interest rates
 make long-term rates unattractive. 
 
-For our verdict, we suggest the Portugese bank manager to investigate the social and economic conditions when embarking a telemarketing campaign for long-term deposits, and to further invest into a DSS based one data driven models to reduce operational cost and increase telemarketing efficiency.
+For our verdict, we suggest the Portugese bank manager to investigate the social and economic conditions when embarking a telemarketing campaign for long-term deposits, and to further invest into a DSS based on data driven models to reduce operational cost and increase telemarketing efficiency.
 
 
 
