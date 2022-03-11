@@ -33,7 +33,7 @@ Among the models, XGBoost after Hyperparameter tuning is the best model,achievin
 our best model with the testing dataset and achieving an AUC score of 0.83. The slight increase in score is most likely due to the size and data variation in the
 training and testing set. Our model has a relatively high precision score(0.76) to recall score (0.31) ratio. This means that our model returns slightly fewer positive results(subscribing to a long term loan),but each of the predicted positive results are labeled correctly.
 
-In addition to creating a good model, interpretability of our model is very important(ie:which features are most important).
+In addition to creating a good model, interpretability of our model is very important(ie: feature importances).
 Since XGBoost algorithm is a blackbox, we employed SHAP values. For our model, nr.employed and euribor3m contributed the most when predicting a successful/unsuccessful contact.
 
 <sub>Models with Training and CV AUC</sub>
