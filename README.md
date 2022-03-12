@@ -57,10 +57,10 @@ Since XGBoost algorithm is a blackbox, we employed SHAP values. For our model, n
 ![](Relevant%20Information/TrainCVAUCFinal.png)
 
 
-<sub>XGBoost with Hyperparameter on testing data: AUROC & confusion matrix</sub>
+<sub>XGBoost with Hyperparameter tuning on testing data: AUROC & confusion matrix</sub>
 ![](Relevant%20Information/XGBBestmodel.png)
 
-<sub>Shap Value Beeswarm Graph</sub>
+<sub>XGBoost with Hyperparameter tuning Shap Value Beeswarm Graph</sub>
 ![](Relevant%20Information/Shap.png)
 
 
