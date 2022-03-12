@@ -12,7 +12,7 @@ model, an additional goal is to achieve an ROC AUC score greater than or equal t
 
 ## Dataset Information
 The dataset was taken from [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Bank+Marketing). There are 4 variants of this dataset, of which we selected the most completed one ('bank-additional-full.csv') which contained 41188 entries with 20 features. 
-The dataset was gathered in the period May 2008 to June 2013 where the call agent recorded manually each successful or unsuccesful calls. The researcher than further enriched the data with social and economical influences taken from the central bank of Portuguese Republic statistical website.More information on each features are laid out in the appendix.
+The dataset was gathered in the period May 2008 to June 2013 where the call agent recorded manually each successful or unsuccesful calls. The researcher than further enriched the data with social and economical influences taken from the central bank of Portuguese Republic statistical website. More information on each features are laid out in the appendix.
 
 ## Tools
 
