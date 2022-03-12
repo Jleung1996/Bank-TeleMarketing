@@ -14,6 +14,21 @@ model, an additional goal is to achieve an ROC AUC score greater than or equal t
 The dataset was taken from [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Bank+Marketing). There are 4 variants of this dataset, of which we selected the most completed one ('bank-additional-full.csv') which contained 41188 entries with 20 features. 
 The dataset was gathered in the period May 2008 to June 2013 where the call agent recorded manually each successful or unsuccesful calls. The researcher than further enriched the data with social and economical influences taken from the central bank of Portuguese Republic statistical website.More information on each features are laid out in the appendix.
 
+## Tools
+
+|     **Tools**    |             **Purpose**            |                 **Documentation**                |
+|:----------------:|:----------------------------------:|:------------------------------------------------:|
+| Python           | Programing language                | https://docs.python.org/3/                       |
+| Jupyter Notebook | Interface                          | https://jupyter.org/                             |
+| NumPy            | Library for calculation            | https://numpy.org/doc/                           |
+| Pandas           | Library for data manipulation      | https://pandas.pydata.org/                       |
+| Matplotlib       | Library for data visualization     | https://matplotlib.org/                          |
+| Seaborn          | Library for data visualization     | https://seaborn.pydata.org/                      |
+| Scikit-learn     | Library for modeling               | https://scikit-learn.org/stable/                 |
+| XGBoost          | Library for modeling               | https://xgboost.readthedocs.io/en/stable/        |
+| CatBoost         | Library for modeling               | https://catboost.ai/en/docs/                     |
+| SHAP             | Library for model interpretability | https://shap.readthedocs.io/en/latest/index.html |
+
 ## Performance Metric Information
 The dataset we are using is inbalanced(89% failure, 11% success). Because of this, metrics such as accuracy is misleading and inapporiate for our problem(ie: if we use model that always predict failure, model will have an accuracy of 89%).
 There were two metrics that we considered: F1 score & Receiver Operating Characteristic Area Under Curve Score (AUROC). To be aligned with the given research paper, AUROC was selected. 
@@ -57,7 +72,7 @@ pressured to increase their captial requirements(e.g. capturing more long-term d
 with the COVID-19 pandemic, rapid increase of inflation, and the uncertainty of the European conflicts, Portugese banks like their European and American counterparts
 are taking a more cautionary approach(e.g. increasing captial holdings and reducing operational cost). With this in mind, deploying a decision support system using
 machine learning algorithms to predict the results of a telemarketing call for long-term deposits is a valuable tool for bank campaign managers. In
-this project, we were able to show algorithms such as XGBoost is able to discriminate successful/unsuccesful calls quite distinctively. Futhermore, using SHAP values and various differently graphs, we were able to increase model interpretability even for black box algorithms such as XGBoost. 
+this project, we were able to show algorithms such as XGBoost is able to discriminate successful/unsuccesful calls quite distinctively. Futhermore, using SHAP values and various different graphs, we were able to increase model interpretability even for black box algorithms such as XGBoost. 
 We were able to see that both national number of employee and the three month Euribor rate were the most releveant model feature and their effects on our predictions.
 For example, with a high three month Euribor rate(short-term interest), it reduces the chance a call is successful in the XGBoost model. This bears some similarity with economic behaviors since attractive short term interest rates
 make long-term rates unattractive. 
