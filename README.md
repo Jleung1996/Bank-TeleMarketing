@@ -27,6 +27,8 @@ form. Once that was done, we performed Elementary Data Analysis(EDA) for both nu
 From EDA and problem statement, we then built several binary classification models like Logistic Regression, RandomForest, XGBoost, and CatBoost. For each model, we fine tune the parameters using feature selection and hyperparameter tuning(GridSearch). In addition, each model is
 cross-validated using the train/test split (90%/10% split) & 5-Fold cross-validation. We then picked the model with best cross-validation AUC score, and fit the testing data into it. In the final step, we did feature analysis on our best model to help us draw real world conclusions. For more details regarding the procedures, please check Jupiter notebook.
 
+<sub>Workflow Diagram</sub>
+![](Relevant%20Information/Workflow.png)
 
 ## Best Model Results
 Among the models, XGBoost after Hyperparameter tuning is the best model,achieving a cross-validated ROC ACU score of 0.804. We then tested
@@ -37,14 +39,14 @@ In addition to creating a good model, interpretability of our model is very impo
 Since XGBoost algorithm is a blackbox, we employed SHAP values. For our model, nr.employed and euribor3m contributed the most when predicting a successful/unsuccessful contact.
 
 <sub>Models with Training and CV AUC</sub>
-
 ![](Relevant%20Information/TrainCVAUCFinal.png)
 
 
 <sub>XGBoost with Hyperparameter on testing data: AUROC & confusion matrix</sub>
 ![](Relevant%20Information/XGBBestmodel.png)
 
-
+<sub>Shap Value Beeswarm Graph</sub>
+![](Relevant%20Information/Shap.png)
 
 
 
@@ -66,12 +68,6 @@ For our verdict, we suggest the Portugese bank manager to investigate the social
 
 
 ## Appendix
-
-
-<sub>Shap Value Beeswarm Graph</sub>
-
-![](Relevant%20Information/Shap.png)
-
 
 ### Attribute Information(Taken from UCI Machine Learning Repository):
 
