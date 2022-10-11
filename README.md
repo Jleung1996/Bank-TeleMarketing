@@ -72,7 +72,7 @@ pressured to increase their captial requirements(e.g. capturing more long-term d
 with the COVID-19 pandemic, rapid increase of inflation, and the uncertainty of the European conflicts, Portugese banks like their European and American counterparts
 are taking a more cautionary approach(e.g. increasing captial holdings and reducing operational cost). With this in mind, deploying a decision support system using
 machine learning algorithms to predict the results of a telemarketing call for long-term deposits is a valuable tool for bank campaign managers. In
-this project, we were able to show algorithms such as XGBoost is able to discriminate successful/unsuccesful calls quite distinctively. Futhermore, using SHAP values and various different graphs, we were able to increase model interpretability even for black box algorithms such as XGBoost. 
+this project, we were able to show algorithms such as XGBoost are able to discriminate successful/unsuccesful calls quite distinctively. Futhermore, using SHAP values and various different graphs, we were able to increase model interpretability even for black box algorithms such as XGBoost. 
 We were able to see that both national number of employee and the three month Euribor rate were the most releveant model feature and their effects on our predictions.
 For example, with a high three month Euribor rate(short-term interest), it reduces the chance a call is successful in the XGBoost model. This bears some similarity with economic behaviors since attractive short term interest rates
 make long-term rates unattractive. 
